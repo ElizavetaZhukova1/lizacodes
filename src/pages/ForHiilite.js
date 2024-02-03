@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ForHiilite = () => (
   <div>
-    <h2>For Hiilite</h2>
+    <h2 className="p-4 max-w-md mx-auto bg-white rounded-xl shadow-md">For Hiilite</h2>
     <p>I'm just testing</p>
     <Link to="/">Back to Home</Link>
   </div>
