@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lizacodes/static/css/main.f855e6bc.css",
-    "main.js": "/lizacodes/static/js/main.0086e9f7.js",
+    "main.js": "/lizacodes/static/js/main.ba53618e.js",
     "static/js/592.1360dfe4.chunk.js": "/lizacodes/static/js/592.1360dfe4.chunk.js",
     "static/media/logo.svg": "/lizacodes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lizacodes/index.html",
     "main.f855e6bc.css.map": "/lizacodes/static/css/main.f855e6bc.css.map",
-    "main.0086e9f7.js.map": "/lizacodes/static/js/main.0086e9f7.js.map",
+    "main.ba53618e.js.map": "/lizacodes/static/js/main.ba53618e.js.map",
     "592.1360dfe4.chunk.js.map": "/lizacodes/static/js/592.1360dfe4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.0086e9f7.js"
+    "static/js/main.ba53618e.js"
   ]
 }
