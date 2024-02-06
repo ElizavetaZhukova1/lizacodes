@@ -3,7 +3,7 @@ import flameRed from '../assets/Flame_red.svg'; // Replace with the path to your
 
 const TopContact = () => {
   return (
-    <div className="bg-white_bg text-black_bg font-hl_text text-base py-2 fixed top-0 w-full z-50">
+    <div className="bg-white_bg text-black_bg font-hl_text text-base pt-2 fixed top-0 w-full z-50">
       <div className="max-w-screen-xl mx-auto px-4 justify-between items-center grid grid-cols-6">
         
           
@@ -19,6 +19,7 @@ const TopContact = () => {
         </div>
         
       </div>
+      <div className="h-0.5 w-full bg-blue_light mt-2"></div>
     </div>
   );
 };
