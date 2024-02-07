@@ -1,18 +1,20 @@
 import React from 'react';
 import gradPhoto from '../assets/grad_photo.png'; 
 import LinkPhoto from '../assets/link_photo.png'; 
+import GenLetterHead from './GenLetterHead';
 
-const HiiliteWho = () => {
+const GenWho = ({aboutMe=`I am a skilled Full Stack Developer and Data Scientist with varied, real-life, 
+commercial and academic experience. My focus is on using these technical skills to make a significant 
+impact on user satisfaction, aiming to take on challenging roles that shape and improve final products. 
+I’ve graduated from UBCO with a B.A. in Computer Science and a minor in Economics, and I am currently 
+located in Kelowna.`, myValues}) => {
   return (
     <div className="bg-black_bg text-white_bg py-6 grid grid-cols-2 px-10">
         <div className="flex flex-col">  
-            <div className="relative font-head_text text-6xl mb-6 text-center group">
-            <span className="text-blue_light relative text-8xl group-hover:animate-pulse motion-reduce:animate-none" style={{ left: '0.37em', zIndex: 10 }}>W</span>
-            <span className="relative" style={{ zIndex: 20 }}>Who am I?</span>
-            </div>
+            <GenLetterHead headQuestion="Who am I?" textColour='white_bg'/>
             <div className="flex flex-col space-y-4 font-body_text text-2xl text-wrap">
-                <p>I am a skilled Full Stack Developer and Data Scientist with varied, real-life, commercial and academic experience. My focus is on using these technical skills to make a significant impact on user satisfaction, aiming to take on challenging roles that shape and improve final products. I’ve graduated from UBCO with a B.A. in Computer Science and a minor in Economics, and I am currently located in Kelowna.</p>
-                <p> <span className="underline decoration-blue_light">My values include </span>: integrity, thoroughness, hard-work, striving for greatness, teamwork, bravery, creativity, proactivity</p>
+                <p>{aboutMe}</p>
+                <p> <span className="underline decoration-blue_light">My values include </span>: {myValues}</p>
             </div>
         </div>
     
@@ -36,4 +38,4 @@ const HiiliteWho = () => {
   );
 };
 
-export default HiiliteWho;
+export default GenWho;
