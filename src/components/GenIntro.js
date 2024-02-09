@@ -6,7 +6,7 @@ import arrow from '../assets/Arrow_blue.svg';
 const GenIntro = ({care1="code", care2="data", care3="marketing", compName, compPoss}) => {
 
   return (
-    <div className="bg-black_bg min-h-screen flex items-center xs:max-md:flex-col xs:max-md:pt-16 xs:max-md:pb-2 xs:max-md:justify-evenly">
+    <div className="bg-black_bg min-h-screen flex items-center xs:max-md:flex-col xs:max-md:pt-12 xs:max-md:pb-2 xs:max-md:justify-evenly">
       
         <div className="md:pl-8 md:space-y-4 text-white_bg md:mx-auto md:grid md:grid-rows-7 xs:max-md:flex xs:max-md:flex-col xs:max-md:space-y-4 xs:max-md:text-left">
         <h1 className="md:text-7xl xs:max-md:text-3xl font-head_text md:row-start-3 xs:max-md:pt-4">
@@ -35,13 +35,13 @@ const GenIntro = ({care1="code", care2="data", care3="marketing", compName, comp
           src={photoWithFlame}
           alt="Liza with a flame"
           className="my-auto object-right justify-end items-end xs:max-md:hidden"
-          style={{ maxWidth: '600px'}} // Adjust the size as needed
+          style={{ maxWidth: '600px'}} 
         />
         <img
           src={mobPhoto}
           alt="Liza with a flame"
           className="md:hidden mx-auto object-center py-4"
-          style={{ maxWidth: '300px'}} // Adjust the size as needed
+          style={{ maxWidth: '400px'}} 
         />
   </div>
   <div className="md:hidden justify-center py-2">
