@@ -16,6 +16,10 @@ module.exports = {
         body_text: ['"Crimson Text"', 'serif'],
         hl_text: ['"Crimson Text"', 'serif'],
       },
+      screens:{
+        'xs': '350px',
+        'md':'800px'
+      }
     },
   },
   plugins: [],
