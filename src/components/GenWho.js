@@ -9,7 +9,7 @@ impact on user satisfaction, aiming to take on challenging roles that shape and 
 I’ve graduated from UBCO with a B.A. in Computer Science and a minor in Economics, and I am currently 
 located in Kelowna.`, myValues}) => {
   return (
-    <div className="bg-black_bg text-white_bg py-6 md:grid md:grid-cols-2 xs:max-md:flex xs:max-md:flex-col md:px-10 xs:max-md:px-4">
+    <div className="bg-black_bg text-white_bg py-6 md:grid md:grid-cols-2 xs:max-md:flex xs:max-md:flex-col md:px-10 xs:max-md:px-6">
         <div className="flex flex-col">  
             <GenLetterHead headQuestion="Who am I?" textColour='white_bg'/>
             <div className="flex flex-col space-y-4 font-body_text md:text-2xl xs:max-md:text-lg text-wrap">
