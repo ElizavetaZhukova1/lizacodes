@@ -12,6 +12,7 @@ const HomePage = () => (
     <ul>
       <li><Link to="/forHiilite">Go to Hiilite</Link></li>
       <li><Link to="/forImagineEverything">Go to Imagine Everything</Link></li>
+      <li><Link to="/forGreenspace">Go to Greenspace</Link></li>
     </ul>
   </div>
 );
