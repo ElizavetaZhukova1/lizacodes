@@ -3,11 +3,7 @@ import gradPhoto from '../assets/grad_photo.png';
 import LinkPhoto from '../assets/link_photo.png'; 
 import GenLetterHead from './GenLetterHead';
 
-const GenWho = ({aboutMe=`I am a skilled Full Stack Developer and Data Scientist with varied, real-life, 
-commercial and academic experience. My focus is on using these technical skills to make a significant 
-impact on user satisfaction, aiming to take on challenging roles that shape and improve final products. 
-I’ve graduated from UBCO with a B.A. in Computer Science and a minor in Economics, and I am currently 
-located in Kelowna.`, myValues}) => {
+const GenWho = ({aboutMe=`I'm a Full Stack Developer and Data Scientist based in Kelowna, BC, with a rich blend of commercial, academic, and hands-on experience dedicated to enhancing user satisfaction and advancing product innovation. Holding a degree in Computer Science with a minor in Economics from UBC, I thrive on tackling technical and analytical challenges. My proven track record includes resolving complex software issues, refining user interfaces, and developing data analysis tools that boost efficiency and user engagement. My portfolio spans innovative projects from VR marketplaces to sophisticated online retail platforms, showcasing my drive for breakthroughs and meaningful outcomes. I'm keen to apply my skills in development, data analysis, and UX/UI design in a collaborative setting with a visionary team.`, myValues}) => {
   return (
     <div className="bg-black_bg text-white_bg py-6 md:grid md:grid-cols-2 xs:max-md:flex xs:max-md:flex-col md:px-10 xs:max-md:px-8">
         <div className="flex flex-col">  
@@ -22,13 +18,13 @@ located in Kelowna.`, myValues}) => {
     <img
           src={gradPhoto}
           alt="Liza's graduation"
-          className="object-left justify-start items-start object-contain max-w-64 hover:max-w-72 transition-all duration-300 motion-reduce:transition-none motion-reduce:hover:max-w-64"
+          className="object-left justify-start items-start object-contain max-w-72 hover:max-w-80 transition-all duration-300 motion-reduce:transition-none motion-reduce:hover:max-w-64"
           style={{zIndex:20 }} // Adjust the size as needed
         />
     <img
           src={LinkPhoto}
           alt="Liza's LinkedIn Portrait"
-          className="object-right justify-end items-end object-contain max-w-64 hover:max-w-72 transition-all duration-300 motion-reduce:transition-none motion-reduce:hover:max-w-64"
+          className="object-right justify-end items-end object-contain max-w-72 hover:max-w-80 transition-all duration-300 motion-reduce:transition-none motion-reduce:hover:max-w-64"
           style={{ zIndex:10 }} // Adjust the size as needed
         />
     </div>
