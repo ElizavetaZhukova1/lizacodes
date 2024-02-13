@@ -9,11 +9,11 @@ const HomePage = () => (
    Please send me an email if you have any questions!
    </h2>
    <p className="font-hl_text md:text-3xl xs:max-md:text-xl underline decoration-blue_light pt-2">elizavetazhukova57@gmail.com</p>
-    <ul>
+    {/*<ul>
       <li><Link to="/forHiilite">Go to Hiilite</Link></li>
       <li><Link to="/forImagineEverything">Go to Imagine Everything</Link></li>
       <li><Link to="/forGreenspace">Go to Greenspace</Link></li>
-    </ul>
+</ul>*/}
   </div>
 );
 
