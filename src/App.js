@@ -6,6 +6,7 @@ import ForHiilite from './pages/ForHiilite';
 import ForImagineEverything from './pages/ForImagineEverything';
 import ForGreenspace from './pages/ForGreenspace';
 import ForAcroCommerce from './pages/ForAcroCommerce';
+import ForRocketNow from './pages/ForRocketNow';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/ForImagineEverything" element={<ForImagineEverything />} />
         <Route path="/ForGreenspace" element={<ForGreenspace />} />
         <Route path="/ForAcroCommerce" element={<ForAcroCommerce />} />
+        <Route path="/ForRocketNow" element={<ForRocketNow />} />
         <Route path="/" element={<HomePage />} />
       </Routes>
   );
