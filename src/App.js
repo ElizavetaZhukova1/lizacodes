@@ -9,6 +9,7 @@ import ForAcroCommerce from './pages/ForAcroCommerce';
 import ForRocketNow from './pages/ForRocketNow';
 import ForMinga from './pages/ForMinga';
 import ForRubyIndustries from './pages/ForRubyIndustries';
+import ForTwinCreek from './pages/ForTwinCreek';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/ForRocketNow" element={<ForRocketNow />} />
         <Route path="/ForMinga" element={<ForMinga />} />
         <Route path="/ForRubyIndustries" element={<ForRubyIndustries />} />
+        <Route path="/ForTwinCreek" element={<ForTwinCreek />} />
         <Route path="/" element={<HomePage />} />
       </Routes>
   );
