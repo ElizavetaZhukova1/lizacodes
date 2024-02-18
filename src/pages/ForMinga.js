@@ -12,7 +12,7 @@ const ForMinga = () => {
     
   <div>
      <TopContact />
-    <GenIntro care1="Education" care2="data" care3="code" compName="Minga" compPoss="Minga's"/>
+    <GenIntro care1="education" care2="data" care3="code" compName="Minga" compPoss="Minga's"/>
     <GenWhiteBg headQuestion={"What will I bring to Minga?"} firstHead={"Elegant Code"} 
     firstPar={`At my previous company, my swift issue resolutions boosted team productivity by 5%. My diligent peer reviews led to a 10% reduction in errors, and my commitment to refining the codebase cut down code duplication by 8%.
     `}
