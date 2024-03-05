@@ -11,6 +11,7 @@ import ForMinga from './pages/ForMinga';
 import ForRubyIndustries from './pages/ForRubyIndustries';
 import ForTwinCreek from './pages/ForTwinCreek';
 import ForAffirm from './pages/ForAffirm';
+import ForGlobalRelay from './pages/ForGlobalRelay';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/ForRubyIndustries" element={<ForRubyIndustries />} />
         <Route path="/ForTwinCreek" element={<ForTwinCreek />} />
         <Route path="/ForAffirm" element={<ForAffirm />} />
+        <Route path="/ForGlobalRelay" element={<ForGlobalRelay />} />
         <Route path="/" element={<HomePage />} />
       </Routes>
   );
