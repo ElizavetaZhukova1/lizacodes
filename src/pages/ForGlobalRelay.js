@@ -13,7 +13,7 @@ const ForGlobalRelay = () => {
   <div>
      <TopContact />
     <GenIntro care1="security" care2="code" care3="data" compName="Global Relay" compPoss="Global Relay's"/>
-    <GenWhiteBg headQuestion={"What will I bring to Global Relay"} firstHead={"Elegant Code"} 
+    <GenWhiteBg headQuestion={"What will I bring to Global Relay?"} firstHead={"Elegant Code"} 
     firstPar={`At my previous company, my swift issue resolutions boosted team productivity by 5%. My diligent peer reviews led to a 10% reduction in errors, and my commitment to refining the codebase cut down code duplication by 8%.
     `}
      secondHead={"Comprehensive Analysis"} secondPar={`I developed a data preprocessing system that streamlined team performance analysis, cutting project delays by 25% and enhancing client communication. My proficiency spans various data science tools, including Python, R, Tableau, and Excel, and I'm acquainted with Machine Learning research.
